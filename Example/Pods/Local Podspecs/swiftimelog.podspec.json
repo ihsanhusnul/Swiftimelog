@@ -1,0 +1,22 @@
+{
+  "name": "swiftimelog",
+  "version": "0.1.0",
+  "summary": "A short description of swiftimelog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/indodanawhitelabel/swiftimelog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "indodanawhitelabel": "ihsan.husnul@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/indodanawhitelabel/swiftimelog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "swiftimelog/Classes/**/*"
+}
