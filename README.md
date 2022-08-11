@@ -17,12 +17,32 @@ swiftimelog is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'swiftimelog'
+pod 'Swiftimelog'
+```
+
+## How to use
+To run timestamp
+```
+Swiftimelog.begin()
+```
+
+start logging an event
+```
+Swiftimelog.start("setupView")
+```
+
+end logging an event
+```
+Swiftimelog.end("setupView")
+```
+
+put an event
+```
+Swiftimelog.end("fullydraw")
 ```
 
 ## Author
-
-indodanawhitelabel, ihsan.husnul@gmail.com
+ihsan.husnul@gmail.com
 
 ## License
 
